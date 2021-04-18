@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+  int p,t,count,n;
+  float si,r;
+  count=1;
+  printf("Enter the number of employ");
+  scanf("%d",n);
+  while(count<=3)
+ { printf("Enter the value of principle,rate and time");
+   scanf("%d%f%d",&p,&r,&t);
+   si=(p*r*t)/100;
+   printf("value of simple intrest%d\n",si);
+   count=count+1;
+  }
+}
+return 0;
+}
+
