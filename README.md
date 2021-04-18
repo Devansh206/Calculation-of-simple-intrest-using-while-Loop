@@ -1,0 +1,1 @@
+# Calculation-of-simple-intrest-using-while-Loop
